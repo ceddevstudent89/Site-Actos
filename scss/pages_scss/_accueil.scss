@@ -259,7 +259,7 @@ nav li a:hover::after {
   text-align: center;
 }
 
-.monmbre-clients {
+.nombre-clients {
   font-size: 85px;
   padding-bottom: 10px;
 }
@@ -275,7 +275,7 @@ nav li a:hover::after {
 }
 
 @media screen and (max-width: 1000px) {
-  .monmbre-clients {
+  .nombre-clients {
     font-size: 80px;
   }
 }
@@ -294,7 +294,7 @@ nav li a:hover::after {
     margin: 0 auto 30px;
     width: 30%;
   }
-  .monmbre-clients {
+  .nombre-clients {
     font-size: 80px;
   }
   .type-de-clients {
@@ -313,7 +313,7 @@ nav li a:hover::after {
   .container-boxs {
     flex-direction: column;
   }
-  .monmbre-clients {
+  .nombre-clients {
     font-size: 50px;
   }
   .type-de-clients {
