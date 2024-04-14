@@ -19,13 +19,13 @@ btnNav.addEventListener("click", () => {
 
 // Animation FAQ
 const allCross = document.querySelectorAll(".panneau-visible img");
-console.log(allCross);
+// console.log(allCross);
 allCross.forEach((logo) => {
   logo.addEventListener("click", function () {
-    console.log("clic");
+    // console.log("clic");
     const height = this.parentNode.parentNode.childNodes[3].scrollHeight;
     const currentChoice = this.parentNode.parentNode.childNodes[3];
-    console.log(height);
+    // console.log(height);
 
     if (this.src.includes("plus")) {
       this.src = "/ressources/minus.svg";

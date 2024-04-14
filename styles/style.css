@@ -21,7 +21,7 @@
     padding: 10px 5px;
   }
 }
-.liste-media, footer, .container-faq, .container-boxs, .accueil, nav ul {
+.container-fonctionnalites, .liste-media, footer, .container-faq, .container-boxs, .accueil, nav ul {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -428,6 +428,128 @@ footer p {
 .liste-media img {
   width: 40px;
   margin: 10px 10px;
+}
+
+.titre-fonctionnalites {
+  padding: 130px 0 20px;
+}
+
+.sous-titre-fonctionnalites {
+  text-align: center;
+  font-size: 24px;
+}
+
+.container-btn-acceuil {
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-fonctionnalites {
+  display: block;
+  width: 200px;
+  padding: 15px;
+  background: #8a56eb;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size: 24px;
+  border-radius: 20px;
+  margin: 0 10px;
+}
+
+.fantome {
+  border: 2px solid #8a56eb;
+  background: transparent;
+  color: #8a56eb;
+}
+
+.container-fonctionnalites {
+  margin: 125px auto 200px;
+  width: 95%;
+  max-width: 1700px;
+  min-width: 300px;
+  flex-wrap: wrap;
+}
+
+.box-fonctionnalites {
+  width: 400px;
+  display: flex;
+  margin: 40px 20px;
+  border: 1px solid #333;
+  padding: 20px;
+  border-radius: 15px 10px;
+}
+
+.gauche-img {
+  font-size: 50px;
+  padding: 5px;
+}
+
+.droite-txt p:nth-of-type(1) {
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.droite-txt p:nth-of-type(2) {
+  font-size: 25px;
+  left: 1.2;
+}
+
+@media screen and (max-width: 800px) {
+  .container-fonctionnalites {
+    margin: 125px auto 75px;
+  }
+}
+.sous-titre-newsletter {
+  font-size: 27px;
+  text-align: center;
+  margin: 0 0 50px;
+}
+
+form {
+  width: 50%;
+  margin: 0 auto 200px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+form input {
+  width: 100%;
+  padding: 15px;
+  font-size: 20px;
+  outline: none;
+  border: 1px solid #000;
+  border-radius: 9999px;
+}
+
+form button {
+  width: 200px;
+  position: absolute;
+  right: 0;
+  padding: 15px;
+  font-size: 20px;
+  border: 1px solid #000;
+  border-radius: 9999px;
+}
+
+@media screen and (max-width: 1100px) {
+  form {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .sous-titre-newsletter {
+    font-size: 20px;
+  }
+  form button {
+    width: 125px;
+    font-size: 17px;
+  }
+  form input {
+    font-size: 17px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
