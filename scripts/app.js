@@ -33,7 +33,7 @@ allCross.forEach((logo) => {
       currentChoice.style.opacity = 1;
       currentChoice.style.padding = "20px 15px";
     } else {
-      this.src = "/ressources/plus.svg";
+      this.src = "ressources/plus.svg";
       currentChoice.style.height = 0;
       currentChoice.style.opacity = 0;
       currentChoice.style.padding = "0px 15px";
